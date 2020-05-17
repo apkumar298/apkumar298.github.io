@@ -1,11 +1,12 @@
 /* stylesheet.css */
 body {
-  background-color: lightgray;
+  background-color: peachpuff;
   text-align: center;
 }
 h1 {
   margin: 10px;
   padding: 5px;
+  border: 3px mediumorchid;
 }
 h2 {
  margin: 4px;
