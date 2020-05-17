@@ -15,8 +15,8 @@ h2 {
  margin: 4px;
  font-size: 90%;
  font-family: "Lucida Console";
- line-height: 26pt;
- border: 1px solid mistyrose;
+ border: 1px solid lightsalmon;
+ border-radius: 5px;
 }
 div {
  text-align: center;
