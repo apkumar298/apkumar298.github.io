@@ -1,13 +1,12 @@
 /* stylesheet.css */
 body {
-  background-color: lightblue;
+  background-color: powderblue;
 }
 h1 {
- color: black;
+ color: blue;
  text-align: center;
  font-family: "Lucida Console";
- font: italic 200% fantasy;
- border: 3px groove red;
+ border: 1px solid blue;
 }
 h2 {
  color: black;
