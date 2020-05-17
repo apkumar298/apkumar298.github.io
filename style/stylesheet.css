@@ -8,6 +8,11 @@ h1 {
  font-family: "Lucida Console";
  font: italic 200%;
 }
+h2 {
+ color: black;
+ text-align: center;
+ font-family: "Lucida Console";
+}
 p {
  color: black;
  text-align: center;
