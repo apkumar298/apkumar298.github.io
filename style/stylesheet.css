@@ -3,14 +3,12 @@ body {
   background-color: lightblue;
 }
 h1 {
- color: #FFFF33;
+ color: black;
  text-align: center;
  font-family: "Lucida Console";
  font: italic 200%;
 }
 p {
- background-color: lightblue;
  color: black;
  text-align: center;
- border: 3px groove #FFFF33;
 }
