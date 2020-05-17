@@ -16,8 +16,8 @@ h2 {
  padding: 5px;
  font-size: 90%;
  font-family: "Lucida Console";
- border: 1px solid tomato;
- border-radius: 5px;
+ text-decoration: underline;
+
 }
 div {
  text-align: center;
