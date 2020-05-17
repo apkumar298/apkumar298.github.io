@@ -16,6 +16,7 @@ h2 {
  font-size: 90%;
  font-family: "Lucida Console";
  line-height: 26pt;
+ border: 1px solid mistyrose;
 }
 div {
  text-align: center;
