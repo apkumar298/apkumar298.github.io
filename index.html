@@ -12,8 +12,9 @@
   <h1>Survey for User Interface</h1><br><br><br>
   
   <h2>Link</h2>
-  <h3>Please visit the website below in order to evaluate its user interface</h3>
-  <div>The <a href="https://www.reddit.com/">website </a> to be evaluated. </div><br><br><br>
+  
+  <div><p>Please visit the website below in order to evaluate its user interface</p>
+    The <a href="https://www.reddit.com/">website </a> to be evaluated. </div><br><br><br>
   
   
   <h2>Website Images</h2>
@@ -30,29 +31,27 @@
     <div>
     <p>Please rank this statement using the scale below: "This website user interface is aesthetically pleasing to me."</p>
     <likert>
-    <ul>
-      <li> Strongly Disagree </li>
-      <li><input type="radio" name="likert" value="1" /></li>
-      <li><input type="radio" name="likert" value="2" /></li>
-      <li><input type="radio" name="likert" value="3" /></li>
-      <li><input type="radio" name="likert" value="4" /></li>
-      <li><input type="radio" name="likert" value="5" /></li>
-      <li> Strongly Agree </li>
-    </ul>
+      Strongly Disagree
+      <input type="radio" name="likert" value="1" />
+      <input type="radio" name="likert" value="2" />
+      <input type="radio" name="likert" value="3" />
+      <input type="radio" name="likert" value="4" />
+      <input type="radio" name="likert" value="5" />
+      Strongly Agree
     </likert>
     </div><br>
     
     <div>
     <p>What did you like most about this website?</p>
     <input type="radio" id="one" name="interest" value="one" checked>
-    <label for="one">The colours and fonts are visually appealing.</label><br>
+    <label for="one">Colour scheme.</label>
     <input type="radio" id="two" name="interest" value="two">
-    <label for="two">The navigation was easy.</label><br>
+    <label for="two">Organization of information.</label>
     <input type="radio" id="three" name="interest" value="three">
-    <label for="three">The way the information is organized and displayed. </label><br>
+    <label for="three">Layout of the threads. </label>
     <input type="radio" id="other" name="interest" value="other">
-    <label for="other">Other</label><br>
-    </div>
+    <label for="other">Other.</label>
+    </div><br>
     
     <div>
     <p>How could the aesthetics of this website be improved? Check all that apply:</p>
@@ -70,25 +69,25 @@
     </div>
     <div>
        <input type="checkbox" id="four" name="four">
-       <label for="four">By making the navigation clear so it is easy to go through the information.</label>
+       <label for="four">By changing the navigation.</label>
     </div>
     <div>
        <input type="checkbox" id="five" name="five">
-       <label for="five">By changing how each of the threads are displayed.</label>
+       <label for="five">By changing layout of threads.</label>
     </div>
     <div>
        <input type="checkbox" id="other" name="other">
-       <label for="other">Other</label>
+       <label for="other">Other.</label>
     </div>
     </div>
     
     <div>
     <label for="general">Overall, pick how you feel about the aesthetics/design of the user interface of this website:</label>
     <select id="general">
-      <option value="excellent">I loved this design. It was very easy to use.</option>
-      <option value="decent">This design was fine and it is usable. </option>
-      <option value="ok">This design could be better. It was a little difficult to use. </option>
-      <option value="bad">This design was poor. It was very difficult to use.</option>
+      <option value="excellent">EXCELLENT: I loved this design. It was very easy to use.</option>
+      <option value="decent">GOOD: This design was fine and it is usable. </option>
+      <option value="ok">SATISFACTORY: This design could be better. It was a little difficult to use. </option>
+      <option value="bad">POOR: This design was poor. It was very difficult to use.</option>
     </select>
     </div>
     <br>
