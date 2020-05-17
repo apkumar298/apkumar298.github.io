@@ -6,7 +6,7 @@ h1 {
  color: black;
  text-align: center;
  font-family: "Lucida Console";
- font: italic 200%;
+ font: italic 200% fantasy;
  border: 3px groove red;
 }
 h2 {
