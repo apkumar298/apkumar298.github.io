@@ -1,6 +1,6 @@
 /* stylesheet.css */
 body {
-  background-color: beige;
+  background-color: white;
   text-align: center;
 }
 h1 {
@@ -44,7 +44,7 @@ div {
 Form {
   border: 1px solid lightsteelblue;
   border-radius: 5px;
-  background-color: lightsteelblue;
+  background-color: beige;
 }
 
 footer {
