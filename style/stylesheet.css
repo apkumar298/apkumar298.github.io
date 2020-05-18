@@ -40,6 +40,13 @@ likert {
 div {
  text-align: center;
 }
+
+form {
+  border: 1px solid lightsteelblue;
+  border-radius: 5px;
+  background-color: lightsteelblue;
+}
+
 footer {
   position: fixed;
   left: 0;
