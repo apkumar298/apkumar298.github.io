@@ -38,5 +38,6 @@ footer {
   text-align: center;
   padding: 3px;
   background-color: darksalmon;
-  font-family: 'URW Chancery L' cursive;
+  font-family: 'URW Chancery L';
+  font-style: italic;
 }
