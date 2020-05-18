@@ -2,7 +2,6 @@
 body {
   background-color: white;
   text-align: center;
-  font-family: "Lucida Console";
 }
 h1 {
   margin: 10px;
@@ -29,11 +28,6 @@ h3 {
 
 div {
  text-align: center;
- font-family: "Lucida Console";
-}
-
-p {
- font-family: "Lucida Console";
 }
 
 footer {
