@@ -2,7 +2,7 @@
 body {
   background-color: white;
   text-align: center;
-  background-image: url('./../images/3.jpg');
+  background-image: url('../../images/3.jpg');
   backdrop-filter: blur(3px);"
 }
 h1 {
