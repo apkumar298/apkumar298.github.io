@@ -83,6 +83,9 @@ var products = [
 // prices should be included in this list, as well as a sort based on price
 
 function restrictListProducts(prods, restriction) {
+	prods.sort(function (a, b) {
+	  return a.price - b.price;
+	});
 	let product_names = [];
 	let product_prices = [];
 	for (let i=0; i<prods.length; i+=1) {
