@@ -20,6 +20,60 @@ var products = [
 		vegetarian: false,
 		glutenFree: true,
 		price: 10.00
+	},
+	{
+		name: "bagel",
+		vegetarian: true,
+		glutenFree: false,
+		price: 1.80
+	},
+	{
+		name: "chicken",
+		vegetarian: false,
+		glutenFree: true,
+		price: 5.80
+	},
+	{
+		name: "tomato",
+		vegetarian: true,
+		glutenFree: true,
+		price: 0.80
+	},
+	{
+		name: "lettuce",
+		vegetarian: true,
+		glutenFree: true,
+		price: 1.99
+	},
+	{
+		name: "croissant",
+		vegetarian: true,
+		glutenFree: false,
+		price: 0.99
+	},
+	{
+		name: "eggs",
+		vegetarian: false,
+		glutenFree: true,
+		price: 2.35
+	},
+	{
+		name: "milk",
+		vegetarian: true,
+		glutenFree: true,
+		price: 2.35
+	},
+	{
+		name: "chicken pasta",
+		vegetarian: false,
+		glutenFree: false,
+		price: 10.99
+	},
+	{
+		name: "cake",
+		vegetarian: false,
+		glutenFree: false,
+		price: 5.99
 	}
 ];
 	
