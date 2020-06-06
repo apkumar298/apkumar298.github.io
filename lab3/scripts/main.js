@@ -185,6 +185,18 @@ function populateListProductChoices(slct1, slct2) {
 		// create a breakline node and add in HTML DOM
 		s2.appendChild(document.createElement("br"));
 		
+		//price added
+		var price = priceArray[i];
+		var price2 = price.toString();
+		//new label for price
+		var label2 = document.createElement('label')
+		label2.htmlFor = price;
+		label2.appendChild(document.createTextNode(price));
+		s2.appendChild(label2);
+		
+		// create a breakline node and add in HTML DOM
+		s2.appendChild(document.createElement("br"));
+		
 		var name1 = optionArray[i];
 		var name2 = productName;
 		var name = name2.toString();
@@ -195,18 +207,6 @@ function populateListProductChoices(slct1, slct2) {
 		  x.setAttribute("width", "300");
 		  x.setAttribute("height", "300");
 		  s2.appendChild(x);
-		
-		// create a breakline node and add in HTML DOM
-		s2.appendChild(document.createElement("br"));
-		
-		//price added
-		var price = priceArray[i];
-		var price2 = price.toString();
-		//new label for price
-		var label2 = document.createElement('label')
-		label2.htmlFor = price;
-		label2.appendChild(document.createTextNode(price));
-		s2.appendChild(label2);
 		
 		// create a breakline node and add in HTML DOM
 		s2.appendChild(document.createElement("br"));    
