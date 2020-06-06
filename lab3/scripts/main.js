@@ -64,7 +64,7 @@ function populateListProductChoices(slct1, slct2) {
 		
 		var name1 = optionArray[i];
 		var name = name1.toString();
-		var str = "../scripts/images/"+String(name)+".JPG";
+		var str = "../scripts/images/"+name+".JPG";
 		var str2 = String(str);
 		var x = document.createElement("IMG");
 		  x.setAttribute("src", str2);
