@@ -128,7 +128,7 @@ function restrictListProducts(prods, restriction) {
 			product_names.push(prods[i].name);
 			product_prices.push(prods[i].price);
 		}
-		else{
+		else if ((restriction == "None")){
 			product_names.push(prods[i].name);
 			product_prices.push(prods[i].price);
 		}
