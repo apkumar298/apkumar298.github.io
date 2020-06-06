@@ -56,63 +56,63 @@ function populateListProductChoices(slct1, slct2) {
 		s2.appendChild(document.createElement("br"));
 	
 	//create button
-	var btn = document.createElement("BUTTON");
+	var btn = document.createElement("label");
 	for (a = 0; a<veg.length; a++){
-		btn.innerHTML = veg[a];
+		btn.appendChild(document.createTextNode(veg[a]));
 	}
 	s2.appendChild(btn);
 	// create a breakline node and add in HTML DOM
 	s2.appendChild(document.createElement("br"));
 	
 	//create button
-	var btn2 = document.createElement("BUTTON");
+	var btn2 = document.createElement("label");
 	for (a = 0; a<meat.length; a++){
-		btn2.innerHTML = meat[a];
+		btn2.appendChild(document.createTextNode(meat[a]));
 	}
 	s2.appendChild(btn2);
 	// create a breakline node and add in HTML DOM
 	s2.appendChild(document.createElement("br"));
 	
 	//create button
-	var btn3 = document.createElement("BUTTON");
+	var btn3 = document.createElement("label");
 	for (a = 0; a<dairy.length; a++){
-		btn3.innerHTML = dairy[a];
+		btn3.appendChild(document.createTextNode(dairy[a]));
 	}
 	s2.appendChild(btn3);
 	// create a breakline node and add in HTML DOM
 	s2.appendChild(document.createElement("br"));
 	
 	//create button
-	var btn4 = document.createElement("BUTTON");
+	var btn4 = document.createElement("label");
 	for (a = 0; a<meal.length; a++){
-		btn4.innerHTML = meal[a];
+		btn4.appendChild(document.createTextNode(meal[a]));
 	}
 	s2.appendChild(btn4);
 	// create a breakline node and add in HTML DOM
 	s2.appendChild(document.createElement("br"));
 	
 	//create button
-	var btn5 = document.createElement("BUTTON");
+	var btn5 = document.createElement("label");
 	for (a = 0; a<dessert.length; a++){
-		btn5.innerHTML = dessert[a];
+		btn5.appendChild(document.createTextNode(dessert[a]));
 	}
 	s2.appendChild(btn5);
 	// create a breakline node and add in HTML DOM
 	s2.appendChild(document.createElement("br"));
 	
 	//create button
-	var btn6 = document.createElement("BUTTON");
+	var btn6 = document.createElement("label");
 	for (a = 0; a<fruit.length; a++){
-		btn6.innerHTML = fruit[a];
+		btn6.appendChild(document.createTextNode(fruit[a]));
 	}
 	s2.appendChild(btn6);
 	// create a breakline node and add in HTML DOM
 	s2.appendChild(document.createElement("br"));
 	
 	//create button
-	var btn7 = document.createElement("BUTTON");
+	var btn7 = document.createElement("label");
 	for (a = 0; a<grain.length; a++){
-		btn7.innerHTML = grain[a];
+		btn7.appendChild(document.createTextNode(grain[a]));
 	}
 	s2.appendChild(btn7);
 	// create a breakline node and add in HTML DOM
