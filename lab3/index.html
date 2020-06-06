@@ -25,6 +25,7 @@
   <p>What would you like to shop for?</p>
 	Choose a diet category, and we will create a products list personalized for you:
 	
+	<br>
 	<input type="radio" id="Vegetarian" name="diet" value="Vegetarian" onchange="populateListProductChoices(this.id, 'displayProduct')">
 	<label for="Vegetarian">Vegetarian items only</label><br>
 	
@@ -32,7 +33,7 @@
 	<label for="GlutenFree">Gluten Free items only</label><br>
 	
 	<input type="radio" id="Organic" name="diet" value="Organic" onchange="populateListProductChoices(this.id, 'displayProduct')">
-	<label for="Organic">Organic items only</label>
+	<label for="Organic">Organic items only</label><br>
 	
 	<input type="radio" id="Vegetarian/GlutenFree" name="diet" value="Vegetarian/GlutenFree" onchange="populateListProductChoices(this.id, 'displayProduct')">
 	<label for="Vegetarian/GlutenFree">Vegetarian & Gluten Free only</label><br>
@@ -41,7 +42,7 @@
 	<label for="Vegetarian/Organic">Vegetarian & Organic only</label><br>
 	
 	<input type="radio" id="GlutenFree/Organic" name="diet" value="GlutenFree/Organic" onchange="populateListProductChoices(this.id, 'displayProduct')">
-	<label for="GlutenFree/Organic">Gluten Free & Organic only</label>
+	<label for="GlutenFree/Organic">Gluten Free & Organic only</label><br>
 	
 	<input type="radio" id="Vegetarian/GlutenFree/Organic" name="diet" value="Vegetarian/GlutenFree/Organic" onchange="populateListProductChoices(this.id, 'displayProduct')">
 	<label for="Vegetarian/GlutenFree/Organic">Vegetarian & Gluten Free & Organic only</label><br>
@@ -49,6 +50,7 @@
 	<input type="radio" id="None" name="diet" value="None" onchange="populateListProductChoices(this.id, 'displayProduct')">
 	<label for="None">No specific diet category</label><br>
 	
+	<!--
 	<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')">
 		<option value=""></option>
 		<option value="Vegetarian">Vegetarian items only</option>
@@ -59,7 +61,10 @@
 		<option value="GlutenFree/Organic">Gluten Free & Organic only</option>
 		<option value="Vegetarian/GlutenFree/Organic">Vegetarian & Gluten Free & Organic only</option>
     		<option value="None">No specific diet category</option>
-	</select><br><br><br><br><br><br><br>
+	</select>
+	-->
+	
+	<br><br><br><br><br><br><br>
 </div>
 
 <div id="Products" class="tabcontent">
