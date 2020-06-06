@@ -145,6 +145,15 @@ function populateListProductChoices(slct1, slct2) {
 	s2.appendChild(document.createElement("br"));
 	// create a breakline node and add in HTML DOM
 	s2.appendChild(document.createElement("br"));
+	
+	// create a breakline node and add in HTML DOM
+		s2.appendChild(document.createElement("br"));
+		
+		// create a label for the checkbox, and also add in HTML DOM
+		var label = document.createElement('label')
+		var txt2 = "Select the products below:"
+		label.appendChild(document.createTextNode(txt2));
+		s2.appendChild(label);
 
 
 	// for each item in the array, create a checkbox element, each containing information such as:
@@ -153,14 +162,7 @@ function populateListProductChoices(slct1, slct2) {
 		
 	for (i = 0; i < optionArray.length; i++) {
 		
-		// create a breakline node and add in HTML DOM
-		s2.appendChild(document.createElement("br"));
 		
-		// create a label for the checkbox, and also add in HTML DOM
-		var label = document.createElement('label')
-		var txt2 = "Select the products below:"
-		label.appendChild(document.createTextNode(txt2));
-		s2.appendChild(label);
 		
 		// create a breakline node and add in HTML DOM
 		s2.appendChild(document.createElement("br"));
