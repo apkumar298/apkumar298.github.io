@@ -13,16 +13,17 @@
 
   <!-- Tab links, each one with an onclick event associated with it -->
   <div class="tab">
-    <button class="tablinks" onclick="openInfo(event, 'Client')">Client Preferences</button>
-    <button class="tablinks" onclick="openInfo(event, 'Products')">Products List</button>
-    <button class="tablinks" onclick="openInfo(event, 'Cart')">My Cart</button>
+    <button class="tablinks" onclick="openInfo(event, 'Client')">1. Choose your diet preferences</button><br>
+    <button class="tablinks" onclick="openInfo(event, 'Products')">2. Choose products and add them to your cart</button><br>
+    <button class="tablinks" onclick="openInfo(event, 'Cart')">3. View your cart</button><br>
   </div><br>
+	
     
   <!-- Tab content -->
 <div id="Client" class="tabcontent">
   <h3>Client Preferences</h3>
   <p>What would you like to shop for?</p>
-	Choose a diet category:
+	Choose a diet category, and we will create a products list personalized for you:
 	<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')">
 	<option value=""></option>
 		<option value="Vegetarian">Vegetarian items only</option>
