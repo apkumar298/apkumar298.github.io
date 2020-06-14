@@ -48,8 +48,7 @@
     <!-- Bootstrap has different types of tables https://www.w3schools.com/bootstrap4/bootstrap_tables.asp -->
     <!-- Might be (or not) useful to show some information to the user -->
     <div class="container">
-        <h2>Service description</h2>
-        <p>Here is a list of services offered</p>            
+        <h2>Our Services</h2> 
         <table class="table table-primary table-hover">
             <thead>
             <tr>
@@ -79,25 +78,30 @@
     <!-- The first card's button doesn't go anywhere, it could be a modal --> 
     <!-- My second card limits the information seen and uses collapsible to show more -->
     <div class="container p-3">
-        <h2>Meet our hairdressers</h2>
+        <h2>Meet our stylists</h2>
         <div class="card-columns">
             <div class="card bg-warning" style="width:200px">
                 <img class="card-img-top" src="images/Jule.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
-                    <h4 class="card-title">Jules</h4>
-                    <p class="card-text">Jules has been cutting hair for 10 years.</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
+                    <h4 class="card-title">Julia</h4>
+                    <p class="card-text">Rank: EXPERT</p>
+                     <p class="card-text">Colour & Style</p>
+                    <a href="#profile" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="profile" class="collapse p-3">
+                        <p>Specializes in colour and styling. Over 10 years of experience</p>
+                    </div>
                 </div>
             </div>
             <div class="card bg-danger" style="width:200px">
                 <img class="card-img-top" src="images/Jule.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
-                    <h4 class="card-title">Jules</h4>
-                    <p class="card-text">The curly hair specialist</p>
+                    <h4 class="card-title">Maria</h4>
+                    <p class="card-text">Rank: EXPERT</p>
+                    <p class="card-text">Curly Hair: Long & Short cuts</p>
                     <!-- collapsible part -->
                     <a href="#profile" class="btn btn-primary" data-toggle="collapse">See Profile</a>
                     <div id="profile" class="collapse p-3">
-                        <p>Jules has been cutting hair for 10 years ... </p>
+                        <p>Specializes in hair cuts especially with curly hair. Over 25 years of experience. </p>
                     </div>
                 </div>
             </div>
