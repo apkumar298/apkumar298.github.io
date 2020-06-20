@@ -4,6 +4,14 @@
 */
 
 /* Bootstrap default font-family is Helvetica Neue */
+.myfooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+}
 
 // stylelint-disable selector-no-qualifying-type
 
