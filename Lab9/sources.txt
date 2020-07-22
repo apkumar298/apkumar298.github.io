@@ -1,0 +1,14 @@
+TABS
+https://www.digitalocean.com/community/tutorials/react-tabs-component
+
+CALENDAR
+https://github.com/rajeshpillai/youtube-react-calendar
+
+FORM
+https://vegibit.com/a-simple-react-js-form-example/
+
+IMAGE
+https://images.unsplash.com/photo-1504005511787-4762d6f15ac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60
+
+
+
